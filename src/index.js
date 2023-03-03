@@ -3,8 +3,8 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const connect = require('./utils/connect');
 
-const ModelsRoutes = require('./api/routes/models.routes');
-const BrandsRoutes = require('./api/routes/brands.routes');
+const ModelsRoutes = require('./API/routes/Models.routes');
+const BrandsRoutes = require('./API/routes/Brands.routes');
 
 dotenv.config();
 const PORT = process.env.PORT || 8081;
